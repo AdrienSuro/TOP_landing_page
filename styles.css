@@ -1,0 +1,9 @@
+.flexcolumn {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.flexrow {
+    display: flex;
+    flex-flow: row nowrap;
+}
