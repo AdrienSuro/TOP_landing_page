@@ -1,3 +1,63 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body > * {
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+header {
+    background-color: pink;
+    align-items: center;
+}
+
+header > * {
+    margin: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    margin-top: 0px;
+}
+
+footer {
+    background-color: pink;
+}
+
+footer p {
+    text-align: center;
+    margin-bottom: 0px;
+    padding: 30px;
+    color: white;
+}
+
+button {
+    background-color: rgb(208, 78, 97);
+    border: 1px solid rgb(208, 78, 97);
+    border-radius: 7px;
+    color: white;
+    padding: 5px 20px;
+}
+
+.logo {
+    max-height: 30px;
+}
+
+#margintotheleft {
+    margin-left: auto;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+  }
+
 .flexcolumn {
     display: flex;
     flex-flow: column nowrap;
@@ -6,4 +66,93 @@
 .flexrow {
     display: flex;
     flex-flow: row nowrap;
+}
+
+.section1 {
+    background-color: pink;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+    color: white;
+}
+
+.section1 div {
+    width: 50%;
+    height: 30vh;
+}
+
+.section1 img {
+    height: 100%;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section2 {
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+
+.section2 > * {
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.section2 img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.smallbox {
+    width: 20%;
+    height: auto;
+}
+
+.section2 img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(191, 213, 159);
+    border-radius: 8px;
+}
+
+.section3 {
+    background-color: rgb(191, 213, 159);
+}
+
+.section4 {
+    background-color: rgb(208, 78, 97);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 15vh;
+    margin-right: 15vh;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border: 2px solid rgb(208, 78, 97);
+    border-radius: 8px;
+    color: white;
+}
+
+.section4 button {
+    width: fit-content;
+    border : 2px solid white;
+    border-radius: 7px;
+    color: white;
+}
+
+#quote {
+    font-style:italic;
+    font-size: 23px;
+    text-align: justify;
+    color: rgb(66, 65, 65);
+    margin-top: 100px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#author {
+    text-align: right;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    margin-top: 5px;
 }
